@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import '@mui/material';
+import { Button } from '@mui/material';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>This is the assigment 1.2</p>
+        <h2>Set timer for morning.</h2>
+        <div>
+        <Button variant="text">8</Button>
+        <Button variant="outlined">15</Button>
+        <Button variant="contained">Set</Button>
+      </div>
       </header>
+
     </div>
   );
 }
