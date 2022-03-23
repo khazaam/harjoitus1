@@ -21,6 +21,9 @@ const Navbar = () => {
             <NavLink to="/SecondAssigments" activeStyle>
               Second assigments for class
             </NavLink>
+            <NavLink to="/PetNames" activeStyle>
+              Pet names!
+            </NavLink>
           </NavMenu>
         </Nav>
       </>
