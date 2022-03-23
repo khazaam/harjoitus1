@@ -20,10 +20,10 @@ const SecondAssigments = () => {
         </h3>
       <p>This will contain the lock</p>
       <LockIcon id="LockIconi"/>
-      <Box display="flex" justifyContent="space-between" margin>
-        <Card id='CardForButtons'><div id="LockNumbers" >{counterOne}</div><Button id="btn1" variant='contained' onClick={() => setCount1(counterOne + 1)}>First number</Button></Card>
-        <Card id='CardForButtons'><div id="LockNumbers">{counterSecond}</div><Button id="btn2"variant='contained' onClick={() => setCount2(counterSecond + 1)}>Second number</Button></Card>
-        <Card id='CardForButtons'><div id="LockNumbers">{counterThird}</div><Button id="btn3" variant='contained' onClick={() => setCount3(counterThird + 1)}>Third number</Button></Card>
+      <Box display="flex" justifyContent="space-between" margin="50px">
+        <Card id='CardForButtons'><h4 id="LockNumbers" >{counterOne}</h4><Button id="btn1" variant='contained' onClick={() => setCount1(counterOne + 1)}>First number</Button></Card>
+        <Card id='CardForButtons'><h4 id="LockNumbers">{counterSecond}</h4><Button id="btn2"variant='contained' onClick={() => setCount2(counterSecond + 1)}>Second number</Button></Card>
+        <Card id='CardForButtons'><h4 id="LockNumbers">{counterThird}</h4><Button id="btn3" variant='contained' onClick={() => setCount3(counterThird + 1)}>Third number</Button></Card>
       </Box>
       </header>
 
