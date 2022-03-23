@@ -12,3 +12,31 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+#LockIconi {
+  size: 200px;
+}
+#CardForButtons {
+  background-color: rgb(116, 86, 86);
+  align-items: center;
+  padding: 5px;
+}
+
+#LockNumbers {
+  text-align: center;
+  font-size: 25px;
+}
+#btn1 {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+#btn2 {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+#btn3 {
+  margin-right: 20px;
+  margin-left: 20px;
+}

@@ -2,6 +2,7 @@ import React from "react";
 import { Nav, NavLink, NavMenu } from "./NavbarElements";
 
 //Created from react tutorial
+//This is the bar top of the screen containing the links in thhe navlink menu
 
 const Navbar = () => {
     return (
@@ -16,6 +17,9 @@ const Navbar = () => {
             </NavLink>
             <NavLink to="/ThirdPage" activeStyle>
               Third page
+            </NavLink>
+            <NavLink to="/SecondAssigments" activeStyle>
+              Second assigments for class
             </NavLink>
           </NavMenu>
         </Nav>

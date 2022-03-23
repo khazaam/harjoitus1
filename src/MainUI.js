@@ -12,6 +12,7 @@ import Home from './pages/HomePage';
 import FirstPage from './pages/FirstPage';
 import SecondPage from './pages/SecondPage';
 import ThirdPage from './pages/ThirdPage';
+import SecondAssigments from './pages/SecondAssigment';
 
 
 
@@ -24,6 +25,7 @@ function MainUI() {
             <Route path="FirstPage" element={<FirstPage/>} />
             <Route path="SecondPage" element={<SecondPage/>} />
             <Route path="ThirdPage" element={<ThirdPage/>} />
+            <Route path="SecondAssigments" element={<SecondAssigments/>} />
         </Routes>
     </Router>
 
