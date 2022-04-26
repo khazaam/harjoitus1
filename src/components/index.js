@@ -24,6 +24,9 @@ const Navbar = () => {
             <NavLink to="/PetNames" activeStyle>
               Pet names!
             </NavLink>
+            <NavLink to="/DomiSivu" activeStyle>
+              dom exercise 5.1
+            </NavLink>
           </NavMenu>
         </Nav>
       </>

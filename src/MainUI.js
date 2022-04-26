@@ -14,6 +14,7 @@ import SecondPage from './pages/SecondPage';
 import ThirdPage from './pages/ThirdPage';
 import SecondAssigments from './pages/SecondAssigment';
 import PetNames from './pages/PetNames';
+import DomiSivu from './pages/domNode';
 
 
 
@@ -28,6 +29,7 @@ function MainUI() {
             <Route path="ThirdPage" element={<ThirdPage/>} />
             <Route path="SecondAssigments" element={<SecondAssigments/>} />
             <Route path="PetNames" element={<PetNames/>} />
+            <Route path="DomiSivu" element={<DomiSivu/>} />
         </Routes>
     </Router>
 
